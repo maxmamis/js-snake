@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #EEE;
+}
+
+#board {
+	margin: 10px auto;
+	width: 500px;
+	height: 500px;
+	background: #EEE;
+	position: relative;
+}
+
+.pixel {
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	position: relative;
+	z-index: 88;
+	background: #EEE;
+	border: 1px solid #DDD;
+	margin-right: -1px;
+	margin-bottom: -1px;
+}
+
+.pixel.off {
+	background: #EEE;
+	z-index: 5;	
+}
+
+
+.row {
+	height: 20px;
+}
+
+
+.food {
+	background: #FFEF0A;
+	box-shadow: 0px 0px 15px #FFEF0A;
+	position: relative;
+	z-index: 99;
+	outline: none;
+}
+
+.snake {
+	background: #3DB841;
+}
+
+.end {
+	background: red;
+}
+
+#scoreboard {
+	font-family: "Adelle Sans";
+	font-weight: 100;
+	font-size: 36px;
+	width: 100px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 30px;
+	color #333;
+}
